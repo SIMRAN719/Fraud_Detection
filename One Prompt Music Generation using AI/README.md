@@ -9,7 +9,7 @@ This simple project utilizes the Hugging Face model, specifically the 'facebook/
 
 * **[Requests Library](https://docs.python-requests.org/en/master/):** Used for making HTTP requests to the Hugging Face Inference API.
 
-* **[Pydub Library](https://pydub.com/):**Utilized for processing audio files, specifically for converting the received content into an AudioSegment object.
+* **[Pydub Library](https://pydub.com/):** Utilized for processing audio files, specifically for converting the received content into an AudioSegment object.
 
 * **[Hugging Face Model](https://huggingface.co/facebook/musicgen-small):** The pre-trained model hosted on Hugging Face's model hub, providing music generation capabilities.
 
