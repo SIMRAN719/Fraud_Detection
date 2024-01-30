@@ -1,0 +1,3 @@
+### Series of Mini projects
+
+Implementing what I am learning...
