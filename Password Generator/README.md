@@ -1,7 +1,7 @@
 # Password Generator
 
 ## Description
-This Python script generates strong and random passwords of variable length based on user input. It utilizes the random module to create passwords containing a mix of lowercase letters, uppercase letters, digits, and special characters.
+This Python script generates strong and random passwords of variable length based on user input. It utilizes the `random module` to create passwords containing a mix of lowercase letters, uppercase letters, digits, and special characters.
 
 
 **1. Default Password Generation:** Generates a random password with a mix of uppercase letters, lowercase letters, digits, and special characters.
@@ -26,19 +26,19 @@ This Python script generates strong and random passwords of variable length base
 
 ## Installation
 
-1. Clone this repository to your local machine
+`1. Clone this repository to your local machine`
 
 ```
     git clone https://github.com/SIMRAN719/Mini-Projects.git
 ```
 
-2. Navigate to the project directory
+`2. Navigate to the project directory`
 
 ```
     cd password-generator
 ```
 
-3. Run the script
+`3. Run the script`
 
 ```
     python Password Generator.py
@@ -46,7 +46,7 @@ This Python script generates strong and random passwords of variable length base
 
 ## Usage
 
-* Upon running the script, you will be prompted to choose between default and customized password generation.
+* Upon running the script, you will be prompted to choose between `default and customized password generation`.
 
 * For customized password generation, you will be asked to specify the desired length of the password and the number of uppercase letters, lowercase letters, digits, and special characters.
 
