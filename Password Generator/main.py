@@ -38,7 +38,7 @@ def defaultpassword():
     passwordlist=[Upper_Alphabets,Lower_Alphabets,SpecialChar,numbers]
     password=[]
     for j in passwordlist:
-        x=random.randint(1,5)
+        x=random.randint(2,5)
         for k in range(x):
             password.append(str(random.choice(j)))
 
