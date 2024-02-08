@@ -7,7 +7,7 @@ This Python script utilizes OpenAI's GPT-3.5 model to create a conversational ch
 ## Prerequisites
 
 **1. Python Installation:** 
-Ensure that **[Python](https://www.python.org/):** is installed on your machine.
+Ensure that **[Python](https://www.python.org/)** is installed on your machine.
 
 **2. Required Packages:**
  Make sure you have the necessary Python packages installed. You can use the following command in your terminal or command prompt to install them:
