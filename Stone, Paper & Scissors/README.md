@@ -20,7 +20,7 @@ This is a simple Stone, Paper, Scissors game implemented in Python. The player c
 6. The scores of the player and the AI opponent will be displayed after each round.
 7. The game continues until you decide to exit.
 
-## Screenshots
+## Game
 
 ```
     Heyy! I am Pixxy
@@ -39,7 +39,7 @@ This is a simple Stone, Paper, Scissors game implemented in Python. The player c
         (_____)
         (_____)
         (____)
-    ---.__(___)
+    ---.(___)
 
     
         _______
@@ -74,7 +74,7 @@ Ensure that **[Python](https://www.python.org/)** is installed on your machine.
 
 **2. Random :** The random module in Python provides functionalities for generating random numbers, making random selections, and shuffling sequences. 
 
-## Installation
+## Usage
 
 1. Clone or download the repository.
 2. Navigate to the directory containing the script.
