@@ -1,7 +1,8 @@
 import openai
-#Use your personal API Key
-API_key='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'
-openai.api_key=API_key
+from dotenv import load_dotenv
+import os
+API_KEY = os.getenv('API_key')
+openai.api_key=API_KEY
 messages=[{"role": "system", "content": "You are a helpful and kind assistant."}]
 while True:
     message=input("user :")
