@@ -1,6 +1,7 @@
 import openai
 from dotenv import load_dotenv
 import os
+#API Key 
 API_KEY = os.getenv('API_key')
 openai.api_key=API_KEY
 messages=[{"role": "system", "content": "You are a helpful and kind assistant."}]
