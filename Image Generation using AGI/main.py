@@ -18,10 +18,8 @@ def generate_image(prompt):
     payload = {"inputs": prompt, 'parameters': {'temperature': random.uniform(0.5, 1.5)}}
     image_bytes = query(payload)
     
-    print("Content received from API:", image_bytes)  # Print content received from API
-    
+    print("Content received from API:", image_bytes) 
     try:
-        # Attempt to open the image using PIL
         image = Image.open(io.BytesIO(image_bytes))
         return image
     except Exception as e:
