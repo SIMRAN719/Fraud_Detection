@@ -4,7 +4,7 @@ import re
 def valid_username():
     user_name=input("Username :")
     valid=r'[a-zA-Z_][a-zA-Z0-9_]{4,}$'
-    if valid:
+    if re.match(valid,user_name):
         return user_name
     else:
         print("Invalid username\nEnter valid username")
@@ -13,7 +13,7 @@ def valid_username():
 def valid_password():
     password=input("Password :")
     valid=r'(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*()_+}{":;\'?/>.<,])(?=.{8,})'
-    if valid:
+    if re.match(valid,password):
         return password
     else:
         print("Invalid password\nEnter valid password")
@@ -22,7 +22,7 @@ def valid_password():
 def valid_email():
     email=input("Email :")
     valid=r'[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$'
-    if valid:
+    if re.match(valid,email):
         return email
     else:
         print("Invalid email\nEnter valid email")
